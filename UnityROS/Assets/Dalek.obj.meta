@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: c664c72d2d42b48ecb2361c9b26ace85
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Blank_Dalek_Dalek Bottom_Section Fender
+    100002: Blank_Dalek_Dalek Bottom_Section Skirt
+    100004: Blank_Dalek_Dalek Middle_Section Gun_Object GunPivot
+    100006: Blank_Dalek_Dalek Middle_Section GunBox.1
+    100008: Blank_Dalek_Dalek Middle_Section Lower
+    100010: Blank_Dalek_Dalek Middle_Section Manipulator Sucker_Arm
+    100012: Blank_Dalek_Dalek Middle_Section Shoulders
+    100014: Blank_Dalek_Dalek Middle_Section Slats
+    100016: Blank_Dalek_Dalek Neck Inner
+    100018: Blank_Dalek_Dalek Neck Inner_Rings
+    100020: Blank_Dalek_Dalek Neck Inner_Tubes.1
+    100022: Blank_Dalek_Dalek Neck Neck_Blocks
+    100024: Blank_Dalek_Dalek Neck Neck_Rings
+    100026: Blank_Dalek_Dalek Neck Outer
+    100028: Blank_Dalek_Dalek Top CowelScrews
+    100030: Blank_Dalek_Dalek Top Cowl Null_Object Lathe_NURBS.1
+    100032: Blank_Dalek_Dalek Top Ears Bulb
+    100034: Blank_Dalek_Dalek Top Ears EarCage
+    100036: Blank_Dalek_Dalek Top Ears LightLens
+    100038: Blank_Dalek_Dalek Top Ears Screw.3
+    100040: Blank_Dalek_Dalek Top EyePivot
+    100042: Blank_Dalek_Dalek Top Symmetry Dome
+    100044: //RootNode
+    100046: EndSegment
+    100048: Eye
+    100050: EyeDiscs
+    100052: EyeScrews
+    100054: EyeStalk
+    100056: FirstSegment
+    100058: Gun
+    100060: HooverJets
+    100062: InnerLens
+    100064: Midsegment
+    100066: Screws
+    100068: Sphere_1.1
+    100070: Sphere_1.1_MeshPart0
+    100072: Sphere_1.1_MeshPart1
+    100074: Sphere_1.1_MeshPart2
+    100076: Blank_Dalek_Dalek_Bottom_Section_Fender
+    100078: Blank_Dalek_Dalek_Bottom_Section_Skirt
+    100080: Blank_Dalek_Dalek_Middle_Section_Gun_Object_GunPivot
+    100082: Blank_Dalek_Dalek_Middle_Section_GunBox.1
+    100084: Blank_Dalek_Dalek_Middle_Section_Lower
+    100086: Blank_Dalek_Dalek_Middle_Section_Manipulator_Sucker_Arm
+    100088: Blank_Dalek_Dalek_Middle_Section_Shoulders
+    100090: Blank_Dalek_Dalek_Middle_Section_Slats
+    100092: Blank_Dalek_Dalek_Neck_Inner
+    100094: Blank_Dalek_Dalek_Neck_Inner_Rings
+    100096: Blank_Dalek_Dalek_Neck_Inner_Tubes.1
+    100098: Blank_Dalek_Dalek_Neck_Neck_Blocks
+    100100: Blank_Dalek_Dalek_Neck_Neck_Rings
+    100102: Blank_Dalek_Dalek_Neck_Outer
+    100104: Blank_Dalek_Dalek_Top_CowelScrews
+    100106: Blank_Dalek_Dalek_Top_Cowl_Null_Object_Lathe_NURBS.1
+    100108: Blank_Dalek_Dalek_Top_Ears_Bulb
+    100110: Blank_Dalek_Dalek_Top_Ears_EarCage
+    100112: Blank_Dalek_Dalek_Top_Ears_LightLens
+    100114: Blank_Dalek_Dalek_Top_Ears_Screw.3
+    100116: Blank_Dalek_Dalek_Top_EyePivot
+    100118: Blank_Dalek_Dalek_Top_Symmetry_Dome
+    400000: Blank_Dalek_Dalek Bottom_Section Fender
+    400002: Blank_Dalek_Dalek Bottom_Section Skirt
+    400004: Blank_Dalek_Dalek Middle_Section Gun_Object GunPivot
+    400006: Blank_Dalek_Dalek Middle_Section GunBox.1
+    400008: Blank_Dalek_Dalek Middle_Section Lower
+    400010: Blank_Dalek_Dalek Middle_Section Manipulator Sucker_Arm
+    400012: Blank_Dalek_Dalek Middle_Section Shoulders
+    400014: Blank_Dalek_Dalek Middle_Section Slats
+    400016: Blank_Dalek_Dalek Neck Inner
+    400018: Blank_Dalek_Dalek Neck Inner_Rings
+    400020: Blank_Dalek_Dalek Neck Inner_Tubes.1
+    400022: Blank_Dalek_Dalek Neck Neck_Blocks
+    400024: Blank_Dalek_Dalek Neck Neck_Rings
+    400026: Blank_Dalek_Dalek Neck Outer
+    400028: Blank_Dalek_Dalek Top CowelScrews
+    400030: Blank_Dalek_Dalek Top Cowl Null_Object Lathe_NURBS.1
+    400032: Blank_Dalek_Dalek Top Ears Bulb
+    400034: Blank_Dalek_Dalek Top Ears EarCage
+    400036: Blank_Dalek_Dalek Top Ears LightLens
+    400038: Blank_Dalek_Dalek Top Ears Screw.3
+    400040: Blank_Dalek_Dalek Top EyePivot
+    400042: Blank_Dalek_Dalek Top Symmetry Dome
+    400044: //RootNode
+    400046: EndSegment
+    400048: Eye
+    400050: EyeDiscs
+    400052: EyeScrews
+    400054: EyeStalk
+    400056: FirstSegment
+    400058: Gun
+    400060: HooverJets
+    400062: InnerLens
+    400064: Midsegment
+    400066: Screws
+    400068: Sphere_1.1
+    400070: Sphere_1.1_MeshPart0
+    400072: Sphere_1.1_MeshPart1
+    400074: Sphere_1.1_MeshPart2
+    400076: Blank_Dalek_Dalek_Bottom_Section_Fender
+    400078: Blank_Dalek_Dalek_Bottom_Section_Skirt
+    400080: Blank_Dalek_Dalek_Middle_Section_Gun_Object_GunPivot
+    400082: Blank_Dalek_Dalek_Middle_Section_GunBox.1
+    400084: Blank_Dalek_Dalek_Middle_Section_Lower
+    400086: Blank_Dalek_Dalek_Middle_Section_Manipulator_Sucker_Arm
+    400088: Blank_Dalek_Dalek_Middle_Section_Shoulders
+    400090: Blank_Dalek_Dalek_Middle_Section_Slats
+    400092: Blank_Dalek_Dalek_Neck_Inner
+    400094: Blank_Dalek_Dalek_Neck_Inner_Rings
+    400096: Blank_Dalek_Dalek_Neck_Inner_Tubes.1
+    400098: Blank_Dalek_Dalek_Neck_Neck_Blocks
+    400100: Blank_Dalek_Dalek_Neck_Neck_Rings
+    400102: Blank_Dalek_Dalek_Neck_Outer
+    400104: Blank_Dalek_Dalek_Top_CowelScrews
+    400106: Blank_Dalek_Dalek_Top_Cowl_Null_Object_Lathe_NURBS.1
+    400108: Blank_Dalek_Dalek_Top_Ears_Bulb
+    400110: Blank_Dalek_Dalek_Top_Ears_EarCage
+    400112: Blank_Dalek_Dalek_Top_Ears_LightLens
+    400114: Blank_Dalek_Dalek_Top_Ears_Screw.3
+    400116: Blank_Dalek_Dalek_Top_EyePivot
+    400118: Blank_Dalek_Dalek_Top_Symmetry_Dome
+    2300000: Blank_Dalek_Dalek Bottom_Section Fender
+    2300002: Blank_Dalek_Dalek Bottom_Section Skirt
+    2300004: Blank_Dalek_Dalek Middle_Section Gun_Object GunPivot
+    2300006: Blank_Dalek_Dalek Middle_Section GunBox.1
+    2300008: Blank_Dalek_Dalek Middle_Section Lower
+    2300010: Blank_Dalek_Dalek Middle_Section Manipulator Sucker_Arm
+    2300012: Blank_Dalek_Dalek Middle_Section Shoulders
+    2300014: Blank_Dalek_Dalek Middle_Section Slats
+    2300016: Blank_Dalek_Dalek Neck Inner
+    2300018: Blank_Dalek_Dalek Neck Inner_Rings
+    2300020: Blank_Dalek_Dalek Neck Inner_Tubes.1
+    2300022: Blank_Dalek_Dalek Neck Neck_Blocks
+    2300024: Blank_Dalek_Dalek Neck Neck_Rings
+    2300026: Blank_Dalek_Dalek Neck Outer
+    2300028: Blank_Dalek_Dalek Top CowelScrews
+    2300030: Blank_Dalek_Dalek Top Cowl Null_Object Lathe_NURBS.1
+    2300032: Blank_Dalek_Dalek Top Ears Bulb
+    2300034: Blank_Dalek_Dalek Top Ears EarCage
+    2300036: Blank_Dalek_Dalek Top Ears LightLens
+    2300038: Blank_Dalek_Dalek Top Ears Screw.3
+    2300040: Blank_Dalek_Dalek Top EyePivot
+    2300042: Blank_Dalek_Dalek Top Symmetry Dome
+    2300044: EndSegment
+    2300046: Eye
+    2300048: EyeDiscs
+    2300050: EyeScrews
+    2300052: EyeStalk
+    2300054: FirstSegment
+    2300056: Gun
+    2300058: HooverJets
+    2300060: InnerLens
+    2300062: Midsegment
+    2300064: Screws
+    2300066: Sphere_1.1_MeshPart0
+    2300068: Sphere_1.1_MeshPart1
+    2300070: Sphere_1.1_MeshPart2
+    2300072: Blank_Dalek_Dalek_Bottom_Section_Fender
+    2300074: Blank_Dalek_Dalek_Bottom_Section_Skirt
+    2300076: Blank_Dalek_Dalek_Middle_Section_Gun_Object_GunPivot
+    2300078: Blank_Dalek_Dalek_Middle_Section_GunBox.1
+    2300080: Blank_Dalek_Dalek_Middle_Section_Lower
+    2300082: Blank_Dalek_Dalek_Middle_Section_Manipulator_Sucker_Arm
+    2300084: Blank_Dalek_Dalek_Middle_Section_Shoulders
+    2300086: Blank_Dalek_Dalek_Middle_Section_Slats
+    2300088: Blank_Dalek_Dalek_Neck_Inner
+    2300090: Blank_Dalek_Dalek_Neck_Inner_Rings
+    2300092: Blank_Dalek_Dalek_Neck_Inner_Tubes.1
+    2300094: Blank_Dalek_Dalek_Neck_Neck_Blocks
+    2300096: Blank_Dalek_Dalek_Neck_Neck_Rings
+    2300098: Blank_Dalek_Dalek_Neck_Outer
+    2300100: Blank_Dalek_Dalek_Top_CowelScrews
+    2300102: Blank_Dalek_Dalek_Top_Cowl_Null_Object_Lathe_NURBS.1
+    2300104: Blank_Dalek_Dalek_Top_Ears_Bulb
+    2300106: Blank_Dalek_Dalek_Top_Ears_EarCage
+    2300108: Blank_Dalek_Dalek_Top_Ears_LightLens
+    2300110: Blank_Dalek_Dalek_Top_Ears_Screw.3
+    2300112: Blank_Dalek_Dalek_Top_EyePivot
+    2300114: Blank_Dalek_Dalek_Top_Symmetry_Dome
+    3300000: Blank_Dalek_Dalek Bottom_Section Fender
+    3300002: Blank_Dalek_Dalek Bottom_Section Skirt
+    3300004: Blank_Dalek_Dalek Middle_Section Gun_Object GunPivot
+    3300006: Blank_Dalek_Dalek Middle_Section GunBox.1
+    3300008: Blank_Dalek_Dalek Middle_Section Lower
+    3300010: Blank_Dalek_Dalek Middle_Section Manipulator Sucker_Arm
+    3300012: Blank_Dalek_Dalek Middle_Section Shoulders
+    3300014: Blank_Dalek_Dalek Middle_Section Slats
+    3300016: Blank_Dalek_Dalek Neck Inner
+    3300018: Blank_Dalek_Dalek Neck Inner_Rings
+    3300020: Blank_Dalek_Dalek Neck Inner_Tubes.1
+    3300022: Blank_Dalek_Dalek Neck Neck_Blocks
+    3300024: Blank_Dalek_Dalek Neck Neck_Rings
+    3300026: Blank_Dalek_Dalek Neck Outer
+    3300028: Blank_Dalek_Dalek Top CowelScrews
+    3300030: Blank_Dalek_Dalek Top Cowl Null_Object Lathe_NURBS.1
+    3300032: Blank_Dalek_Dalek Top Ears Bulb
+    3300034: Blank_Dalek_Dalek Top Ears EarCage
+    3300036: Blank_Dalek_Dalek Top Ears LightLens
+    3300038: Blank_Dalek_Dalek Top Ears Screw.3
+    3300040: Blank_Dalek_Dalek Top EyePivot
+    3300042: Blank_Dalek_Dalek Top Symmetry Dome
+    3300044: EndSegment
+    3300046: Eye
+    3300048: EyeDiscs
+    3300050: EyeScrews
+    3300052: EyeStalk
+    3300054: FirstSegment
+    3300056: Gun
+    3300058: HooverJets
+    3300060: InnerLens
+    3300062: Midsegment
+    3300064: Screws
+    3300066: Sphere_1.1_MeshPart0
+    3300068: Sphere_1.1_MeshPart1
+    3300070: Sphere_1.1_MeshPart2
+    3300072: Blank_Dalek_Dalek_Bottom_Section_Fender
+    3300074: Blank_Dalek_Dalek_Bottom_Section_Skirt
+    3300076: Blank_Dalek_Dalek_Middle_Section_Gun_Object_GunPivot
+    3300078: Blank_Dalek_Dalek_Middle_Section_GunBox.1
+    3300080: Blank_Dalek_Dalek_Middle_Section_Lower
+    3300082: Blank_Dalek_Dalek_Middle_Section_Manipulator_Sucker_Arm
+    3300084: Blank_Dalek_Dalek_Middle_Section_Shoulders
+    3300086: Blank_Dalek_Dalek_Middle_Section_Slats
+    3300088: Blank_Dalek_Dalek_Neck_Inner
+    3300090: Blank_Dalek_Dalek_Neck_Inner_Rings
+    3300092: Blank_Dalek_Dalek_Neck_Inner_Tubes.1
+    3300094: Blank_Dalek_Dalek_Neck_Neck_Blocks
+    3300096: Blank_Dalek_Dalek_Neck_Neck_Rings
+    3300098: Blank_Dalek_Dalek_Neck_Outer
+    3300100: Blank_Dalek_Dalek_Top_CowelScrews
+    3300102: Blank_Dalek_Dalek_Top_Cowl_Null_Object_Lathe_NURBS.1
+    3300104: Blank_Dalek_Dalek_Top_Ears_Bulb
+    3300106: Blank_Dalek_Dalek_Top_Ears_EarCage
+    3300108: Blank_Dalek_Dalek_Top_Ears_LightLens
+    3300110: Blank_Dalek_Dalek_Top_Ears_Screw.3
+    3300112: Blank_Dalek_Dalek_Top_EyePivot
+    3300114: Blank_Dalek_Dalek_Top_Symmetry_Dome
+    4300000: Blank_Dalek_Dalek Bottom_Section Fender
+    4300002: Blank_Dalek_Dalek Bottom_Section Skirt
+    4300004: Blank_Dalek_Dalek Middle_Section Gun_Object GunPivot
+    4300006: Blank_Dalek_Dalek Middle_Section GunBox.1
+    4300008: Blank_Dalek_Dalek Middle_Section Lower
+    4300010: Blank_Dalek_Dalek Middle_Section Manipulator Sucker_Arm
+    4300012: Blank_Dalek_Dalek Middle_Section Shoulders
+    4300014: Blank_Dalek_Dalek Middle_Section Slats
+    4300016: Blank_Dalek_Dalek Neck Inner
+    4300018: Blank_Dalek_Dalek Neck Inner_Rings
+    4300020: Blank_Dalek_Dalek Neck Inner_Tubes.1
+    4300022: Blank_Dalek_Dalek Neck Neck_Blocks
+    4300024: Blank_Dalek_Dalek Neck Neck_Rings
+    4300026: Blank_Dalek_Dalek Neck Outer
+    4300028: Blank_Dalek_Dalek Top CowelScrews
+    4300030: Blank_Dalek_Dalek Top Cowl Null_Object Lathe_NURBS.1
+    4300032: Blank_Dalek_Dalek Top Ears Bulb
+    4300034: Blank_Dalek_Dalek Top Ears EarCage
+    4300036: Blank_Dalek_Dalek Top Ears LightLens
+    4300038: Blank_Dalek_Dalek Top Ears Screw.3
+    4300040: Blank_Dalek_Dalek Top EyePivot
+    4300042: Blank_Dalek_Dalek Top Symmetry Dome
+    4300044: EndSegment
+    4300046: Eye
+    4300048: EyeDiscs
+    4300050: EyeScrews
+    4300052: EyeStalk
+    4300054: FirstSegment
+    4300056: Gun
+    4300058: HooverJets
+    4300060: InnerLens
+    4300062: Midsegment
+    4300064: Screws
+    4300066: Sphere_1.1_MeshPart0
+    4300068: Sphere_1.1_MeshPart1
+    4300070: Sphere_1.1_MeshPart2
+    4300072: Blank_Dalek_Dalek_Bottom_Section_Fender
+    4300074: Blank_Dalek_Dalek_Bottom_Section_Skirt
+    4300076: Blank_Dalek_Dalek_Middle_Section_Gun_Object_GunPivot
+    4300078: Blank_Dalek_Dalek_Middle_Section_GunBox.1
+    4300080: Blank_Dalek_Dalek_Middle_Section_Lower
+    4300082: Blank_Dalek_Dalek_Middle_Section_Manipulator_Sucker_Arm
+    4300084: Blank_Dalek_Dalek_Middle_Section_Shoulders
+    4300086: Blank_Dalek_Dalek_Middle_Section_Slats
+    4300088: Blank_Dalek_Dalek_Neck_Inner
+    4300090: Blank_Dalek_Dalek_Neck_Inner_Rings
+    4300092: Blank_Dalek_Dalek_Neck_Inner_Tubes.1
+    4300094: Blank_Dalek_Dalek_Neck_Neck_Blocks
+    4300096: Blank_Dalek_Dalek_Neck_Neck_Rings
+    4300098: Blank_Dalek_Dalek_Neck_Outer
+    4300100: Blank_Dalek_Dalek_Top_CowelScrews
+    4300102: Blank_Dalek_Dalek_Top_Cowl_Null_Object_Lathe_NURBS.1
+    4300104: Blank_Dalek_Dalek_Top_Ears_Bulb
+    4300106: Blank_Dalek_Dalek_Top_Ears_EarCage
+    4300108: Blank_Dalek_Dalek_Top_Ears_LightLens
+    4300110: Blank_Dalek_Dalek_Top_Ears_Screw.3
+    4300112: Blank_Dalek_Dalek_Top_EyePivot
+    4300114: Blank_Dalek_Dalek_Top_Symmetry_Dome
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
