@@ -1,16 +1,43 @@
 var mysql = require("mysql");
 var express = require('express');
 var bodyParser = require('body-parser');
-
+var nodemailer = require('nodemailer');
 var app = express();
 //Database connection
-
 var con = mysql.createConnection({
   host: "us-cdbr-iron-east-05.cleardb.net",
   user: "bd3c486c768f8e",
   password: "53aaa9b2",
   database: "heroku_1b5e34ec020a60e"
 });
+
+//mailer creds
+
+
+var send_mail = function(book_id, book_name, incorrect_location){
+  var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: '', //Add sender username
+      pass: '' //Add sender password
+    }
+  });
+
+  var mailOptions = {
+  from: '', //Add sender username
+  to: '',  //Add recipient username
+  subject: `Notification for ${book_name}`,
+  text: `Book with book id: ${book_id} and title: ${book_name} is in incorrect location at ${incorrect_location}`
+  };
+
+  transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});
+}
 
 app.use(bodyParser.json());
 
@@ -43,26 +70,22 @@ app.post('/all', (req, res) => {
 
 app.post('/check', (req, res) => {
 	var test = req.body;
-	//res.send(JSON.parse(test));
-	//console.log("Check Page");
-	//console.log(req.body);
   var result = req.body;
-  //res.send(result);
   var book_id = result.book_id;
   console.log(book_id);
-  //res.send(book_id);
   console.log(result);
   var location = "fiction";
   console.log(`SELECT * FROM book_location WHERE book_id = ${book_id}`);
   con.query(`SELECT * FROM book_location WHERE book_id = ${book_id}`, function(err, result1, fields){
-
      if(err){
        console.log(err);
      } else {
        console.log(result1);
        if(result1[0].actual_location !== location){
-         console.log(book_id);
+         console.log("INCORRECT LO");
+send_mail(result1[0].book_id, result1[0].book_name, result1[0].current_location);
          con.query(`UPDATE book_location set is_location_correct=false WHERE book_id = ${book_id}`);
+
       } else {
         con.query(`UPDATE book_location set is_location_correct=true WHERE book_id = ${book_id}`);
       }
