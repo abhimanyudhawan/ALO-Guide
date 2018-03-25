@@ -5,6 +5,8 @@ using System.Reflection;
 using System;
 using ROSBridgeLib.geometry_msgs;
 using ROSBridgeLib.turtlesim;
+using UnityEngine.Networking;
+//using System.Net.Http;
 
 /**
  * This is a toy example of the Unity-ROS interface talking to the TurtleSim 
@@ -41,6 +43,48 @@ public class Button : MonoBehaviour  {
 			ros.Disconnect ();
 	}
 
+		public class MyClass
+		{
+				public int book_id;
+				public string location;
+				//public string playerName;
+		}
+
+	public void Send_image (){
+
+				MyClass myObject = new MyClass ();
+				myObject.book_id = 1;
+				myObject.location = "randomloc";
+				string jason = JsonUtility.ToJson (myObject);
+
+
+				//string str = "{'name':'ish'}";
+				StartCoroutine(postRequest("https://calm-cliffs-36731.herokuapp.com/check",jason));
+				// Load an image from a local file.
+				Debug.Log("done");
+
+		}
+
+		IEnumerator postRequest(string url, string json){
+				var uwr = new UnityWebRequest(url, "POST");
+				byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(json);
+				uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
+				uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+				uwr.SetRequestHeader("Content-Type", "application/json");
+
+				//Send the request then wait here until it returns
+				yield return uwr.SendWebRequest();
+
+				if (uwr.isNetworkError)
+				{
+						Debug.Log("Error While Sending: " + uwr.error);
+				}
+				else
+				{
+						Debug.Log("Received: " + uwr.downloadHandler.text);
+				}
+
+		}
 	// Update is called once per frame in Unity. The Unity camera follows the robot (which is driven by
 	// the ROS environment. We also use the joystick or cursor keys to generate teleoperational commands
 	// that are sent to the ROS world, which drives the robot which ...
